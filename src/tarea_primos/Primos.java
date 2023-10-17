@@ -13,7 +13,6 @@ class Primos extends Thread {
 		long startTime = new Date().getTime();
 		boolean esPrimo = esPrimo(numerito);
 		long endTime = new Date().getTime();
-
 		String estado = esPrimo ? "es primo" : "no es primo";
 		System.out.println("El número " + numerito + " " + estado + "  " + (endTime - startTime) + " milisegundos");
 	}
